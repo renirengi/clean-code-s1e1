@@ -20,8 +20,7 @@
   .header__link {
     font-family: Fantasy, cursive;
   }
-  
-    
+      
   .main {
     display: block;
     width: 500px;
@@ -70,8 +69,7 @@
   .button:hover {
     color: #3a3A3a;
   }
-  
-  
+    
   /* Heading */
   
   .title {
@@ -100,8 +98,7 @@
   .input-text:focus {
     color: #333;
   }
-  
-  
+    
   /* New Task */
   
   .main__section-add-item__title {
@@ -112,8 +109,7 @@
   .main__section-add-item__input-container__input{
     width: 318px;
   }
-  
-  
+    
   /* Task list */
   
   .item {
@@ -180,6 +176,7 @@
   }
       
   @media (max-width:768px) {
+
     .header {
       text-align: center;
     }
