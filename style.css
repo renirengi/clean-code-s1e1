@@ -106,7 +106,7 @@
     margin: 0 0 20px;
   }
   
-  .main__section-add-item__input-container__input{
+  .main__section-add-item__input-container__input {
     width: 318px;
   }
     
@@ -169,13 +169,13 @@
     width: 224px
   }
 
-  /*Сброс стилей*/
+  /* Сброс стилей */
 
   .edit-mode label {
     display: none;
   }
       
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
 
     .header {
       text-align: center;
