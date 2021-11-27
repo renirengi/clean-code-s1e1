@@ -1,6 +1,5 @@
 /* Basic Style */
- 
-  body {
+body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -20,7 +19,8 @@
   .header__link {
     font-family: Fantasy, cursive;
   }
-      
+  
+    
   .main {
     display: block;
     width: 500px;
@@ -48,9 +48,9 @@
   h3 {
     list-style: none;
   }
-
-   /*Сброс дефолтных стилей*/
   
+   /*Сброс дефолтных стилей*/
+
   input,
   button {
     outline: none;
@@ -69,7 +69,7 @@
   .button:hover {
     color: #3a3A3a;
   }
-    
+   
   /* Heading */
   
   .title {
@@ -109,7 +109,8 @@
   .main__section-add-item__input-container__input {
     width: 318px;
   }
-    
+  
+  
   /* Task list */
   
   .item {
@@ -128,7 +129,7 @@
   .item > .input-checkbox {
     margin: 0 10px;
   }
-  
+
   .main__section-check-todo__list__task-name {
     padding-left: 10px;
     box-sizing: border-box;
@@ -150,14 +151,12 @@
     transform: rotateZ(0);
   }
   
-  
-  /* Completed */
+    /* Completed */
   
   .main__section-completed-task__list__task-name {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through color #888;
   }
-  
-  
+    
   /* Edit Task */
   
   .item .input-text {
@@ -169,17 +168,15 @@
     width: 224px
   }
 
-  /* Сброс стилей */
+  /*Сброс стилей*/
 
   .edit-mode label {
     display: none;
   }
-      
+
   @media (max-width: 768px) {
 
     .header {
       text-align: center;
     }
   }
-  
-  
