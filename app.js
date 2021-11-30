@@ -40,6 +40,7 @@ var createNewTaskElement=function(taskString){
     checkBox.type="checkbox";
     checkBox.classList.add("input-checkbox");
     editInput.type="text";
+    label.classList.add("main__section-check-todo__list__task-name");
     editInput.classList.add("task-name");
     editInput.classList.add("input-text");
     editInput.classList.add("main__section-add-item__input-container__input");
